@@ -109,3 +109,57 @@ void main() {
 - 속도는 switch가 더 빠름.
 
 ---
+
+## For, While, Do While
+
+1. For : 2가지의 방식이 있음.
+
+- in의 방식 경우 간결하지만 index를 정확하게 산출하기 어려움.
+
+```dart
+// 1. basic
+void main() {
+    List<int> numbers = [
+        1,
+        2,
+        3,
+        4,
+        5,
+    ];
+
+    int total = 0;
+
+    for (int i = 0; i < numbers.length; i++) {
+        total += numbers[i];
+    }
+
+    print(total);
+}
+```
+
+```dart
+// 2. in
+void main() {
+    List<int> numbers = [
+        1,
+        2,
+        3,
+        4,
+        5,
+    ];
+
+    int total = 0;
+
+    for (int number in numbers) {
+        total += number;
+    }
+
+    print(total);
+}
+```
+
+2. [while] vs [do while]
+
+- while : 조건문부터 따짐.
+
+- do while : 무조건 1번은 실행하고 조건문을 따짐.
