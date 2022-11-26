@@ -99,3 +99,13 @@ void main() {
     print(number is! String); // true
 }
 ```
+
+---
+
+## If, Switch
+
+- 조건은 if가 더 많이 사용할 수 있고, switch는 한 가지의 조건만 사용할 수 있음.
+
+- 속도는 switch가 더 빠름.
+
+---
