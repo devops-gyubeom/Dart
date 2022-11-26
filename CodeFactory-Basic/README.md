@@ -75,3 +75,27 @@ void main() {
 2. Const : 컴파일 단계에서 값이 지정되어 있어야 함.
 
 ---
+
+## Operator
+
+1. ??= : Null Saftey로 인해서 data type에 ?를 붙여줘야 동작함.
+
+```dart
+void main() {
+    int? number;
+    number ??= 20;
+    print(number);
+}
+```
+
+2. /= : 나눗셈 연산은 결과값을 double로 저장히기 때문에 변수를 int로 선언한 경우 해당 연산자는 사용하지 못함.
+
+3. is, is! : data type 비교.
+
+```dart
+void main() {
+    int number = 1;
+    print(number is int); // true
+    print(number is! String); // true
+}
+```
