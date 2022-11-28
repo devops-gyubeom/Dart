@@ -190,3 +190,48 @@ void main() {
     }
 }
 ```
+
+---
+
+## Function
+
+1. optional parameter
+
+- [data_type? parameter_name]
+- [data_type parameter_name = parameter_value]
+
+- parameter는 값이 있어도 되고 없어도 됨.
+
+```dart
+// 다음 예제와 같이 ??= 식을 사용해서 표현 가능.
+int addList(List testList, int a, [int? b]) {
+    print('b : $b'); // b : null
+    b ??= 3;
+    ...
+}
+```
+
+```dart
+// 다음 예제와 같이 미리 값을 선언하여 표현 가능.
+int addList(List testList, int a, [int b = 3]) {
+    print('b : $b'); // b : 3
+    ...
+}
+```
+
+2. named parameter : {data_type? parameter_value}
+
+- parameter 위치와 상관 없이 직접 parameter 이름 지정을 통해 선언 및 호출 가능.
+
+```dart
+int addList({List? testList, int? a}) {
+    testList ??= [1, 2, 3, 4, 5];
+    a ??= 3;
+    ...
+}
+
+void main() {
+    List testList = [1, 1, 2, 3, 5, 8];
+    addList(testList: testList, a: 1);
+}
+```
