@@ -163,3 +163,30 @@ void main() {
 - while : 조건문부터 따짐.
 
 - do while : 무조건 1번은 실행하고 조건문을 따짐.
+
+---
+
+## Enum
+
+- 한정된 옵션을 굉장히 효율적으로 사용할 수 있음.
+- 오타가 발생할 확률도 줄어드는 효과.
+
+```dart
+enum LastName {
+    Kim,
+    Lee,
+    Park,
+}
+
+void main() {
+    LastName lastName = LastName.Kim;
+
+    if (lastName == LastName.Kim) {
+        print('Your last name is kim');
+    } else if (lastName == LastName.Lee) {
+        print('Your last name is lee');
+    } else {
+        print('Your last name is park');
+    }
+}
+```
