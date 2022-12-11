@@ -27,3 +27,4 @@
 - collection if, collection for : list 자체 내에서 if, for문 사용 가능.
 - string interpolation : string에서 변수를 사용하고 싶다면 \$붙이기, 계산을 하고 싶다면 \${}으로 감싸기.
 - map의 key는 복잡하게 설정 가능.
+- set은 모든 value가 unique해야 함. (list와의 차이점.)
