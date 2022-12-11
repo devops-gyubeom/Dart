@@ -23,3 +23,5 @@
 ## 2. Data Types
 
 - 모든 data type은 object, class로 이루어져 있음. (특히, int, double 등은 num의 자식임.)
+- VScode 혹은 DartPad를 사용하면 list 생성 시, 맨 끝을 ,로 끝내주면 보기 편한 formating이 지원됨.
+- collection if, collection for : list 자체 내에서 if, for문 사용 가능.
