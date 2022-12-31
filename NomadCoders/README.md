@@ -35,6 +35,11 @@
 ## 3. Functions
 
 - 한 줄 함수이면 => 를 이용해서 간결하게 표현할 수 있음. (return, {} 생략해야함.)
+- parameter 의 2가지 종류.
+  - 1. positional parameter.
+  - 2. named parameter.
+- positional parameter : parameter 의 순서가 중요.
 - named parameter 의 표시 방법 2가지.
   - 1. `data_type? parameter`
   - 2. `required data_type parameter`
+- optional positional parameter : `[data_type? parameter = 'default_value']`
