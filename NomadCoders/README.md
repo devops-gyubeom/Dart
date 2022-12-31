@@ -23,6 +23,7 @@
 ## 2. Data Types
 
 - 모든 data type은 object, class로 이루어져 있음. (특히, int, double 등은 num의 자식임.)
+- number 는 int, double 둘 다 받음. (깔끔한 정수를 받고 싶으면 int 로 정확하게 명시해주는 것이 좋음.)
 - VScode 혹은 DartPad를 사용하면 list 생성 시, 맨 끝을 ,로 끝내주면 보기 편한 formating이 지원됨.
 - collection if, collection for : list 자체 내에서 if, for문 사용 가능.
 - string interpolation : string에서 변수를 사용하고 싶다면 \$붙이기, 계산을 하고 싶다면 \${}으로 감싸기.
@@ -34,3 +35,6 @@
 ## 3. Functions
 
 - 한 줄 함수이면 => 를 이용해서 간결하게 표현할 수 있음. (return, {} 생략해야함.)
+- named parameter 의 표시 방법 2가지.
+  - 1. `data_type? parameter`
+  - 2. `required data_type parameter`
