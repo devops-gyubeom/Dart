@@ -43,3 +43,5 @@
   - 1. `data_type? parameter`
   - 2. `required data_type parameter`
 - optional positional parameter : `[data_type? parameter = 'default_value']`
+- ?? (qq, question, question) : `[left] ?? [right]` left 가 null 이면 right 를 return 함.
+- ??= (qq equals, qq assignment)
