@@ -54,3 +54,6 @@
 - class 를 생성할 때, type 을 꼭 명시해주어야 함.
 - class 의 property 를 수정하지 못하게 하려면 `final` 을 붙여주면 됨.
 - dart 의 class 에서는 `this` 사용하지 않는 것이 권고 사항임.
+- constructor method 의 이름은 반드시 class 의 이름과 동일해야 함.
+- `late` 는 class 의 constructor method 에서 유용함.
+- class 의 property 를 final 과 같은 키워드를 사용하고 constructor method 를 사용하고 싶으면 this 키워드를 positional argument 로 사용.
