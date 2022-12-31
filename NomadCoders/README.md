@@ -48,3 +48,9 @@
 - typedef 은 좀 더 간단한 데이터의 alias 를 만들 때 사용.
 
 ---
+
+## 4. Classes
+
+- class 를 생성할 때, type 을 꼭 명시해주어야 함.
+- class 의 property 를 수정하지 못하게 하려면 `final` 을 붙여주면 됨.
+- dart 의 class 에서는 `this` 사용하지 않는 것이 권고 사항임.
