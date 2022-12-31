@@ -28,3 +28,9 @@
 - string interpolation : string에서 변수를 사용하고 싶다면 \$붙이기, 계산을 하고 싶다면 \${}으로 감싸기.
 - map의 key는 복잡하게 설정 가능.
 - set은 모든 value가 unique해야 함. (list와의 차이점.)
+
+---
+
+## 3. Functions
+
+- 한 줄 함수이면 => 를 이용해서 간결하게 표현할 수 있음. (return, {} 생략해야함.)
