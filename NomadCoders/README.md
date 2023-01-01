@@ -60,3 +60,4 @@
 - named constructor parameter 에서 에러를 없애려면 `required this.property` 이러한 방식으로 기재하면 됨.
 - named constructor 의 경우, `:` 을 이용하여 class 의 모든 property 들을 초기화 해주어야 함. (parameter 는 required 를 해줘야 에러 발생 X.)
 - cascade operator : `..property`, `..method` 를 사용하면 그대로 출력.
+- enum : 개발자의 실수를 줄여주는데 큰 역할을 함. (flutter 에서 class, enum 을 많이 사용하게 될 것임.)
