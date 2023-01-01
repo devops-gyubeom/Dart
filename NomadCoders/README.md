@@ -67,3 +67,5 @@
   - extends : 확장한 클래스는 부모 클래스가 되며, 자식 클래스는 부모 클래스를 super를 통해서 접근하고, 그 순간 부모 클래스의 인스턴스가 됨.
 - mixin : constructor 가 없는 class 를 의미함. (inheritance : extends, mixin : with)
   - with : mixin 내부의 property 와 method 들을 가져오는 것 뿐임. (훔쳐오는 것이라고 보면 됨.)
+
+---
