@@ -61,3 +61,5 @@
 - named constructor 의 경우, `:` 을 이용하여 class 의 모든 property 들을 초기화 해주어야 함. (parameter 는 required 를 해줘야 에러 발생 X.)
 - cascade operator : `..property`, `..method` 를 사용하면 그대로 출력.
 - enum : 개발자의 실수를 줄여주는데 큰 역할을 함. (flutter 에서 class, enum 을 많이 사용하게 될 것임.)
+- abstract class : 다른 클래스들이 직접 구현해야 하는 메소드들을 모아 놓은 일종의 청사진. (객체를 생성할 수 없음.)
+- abstract class : 상속 받는 모든 클래스가 가지고 있어야 하는 메소드를 정의하고 있음. (상속 받는 클래스에서는 메소드를 상세 정의해주어야 함.)
