@@ -64,3 +64,6 @@
 - abstract class : 다른 클래스들이 직접 구현해야 하는 메소드들을 모아 놓은 일종의 청사진. (객체를 생성할 수 없음.)
 - abstract class : 상속 받는 모든 클래스가 가지고 있어야 하는 메소드를 정의하고 있음. (상속 받는 클래스에서는 메소드를 상세 정의해주어야 함.)
 - inheritance : `: super()` 를 통해서 부모 클래스로부터 상속을 받을 수 있음.
+  - extends : 확장한 클래스는 부모 클래스가 되며, 자식 클래스는 부모 클래스를 super를 통해서 접근하고, 그 순간 부모 클래스의 인스턴스가 됨.
+- mixin : constructor 가 없는 class 를 의미함. (inheritance : extends, mixin : with)
+  - with : mixin 내부의 property 와 method 들을 가져오는 것 뿐임. (훔쳐오는 것이라고 보면 됨.)
